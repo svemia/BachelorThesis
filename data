@@ -1,0 +1,23 @@
+# Synthetic data for PBooster algorithm testing.
+# Values of lambda parameter defined in row starting with word 'Lambda'.
+# Value of epsilon parameter defined in row starting with word 'Epsilon'.
+# Rows starting with word User define topic-frequency vectors for browsing histories of different size.
+
+Lambda: 0.5, 1, 5, 10, 15, 30, 50, 70, 100
+Epsilon: 0.01
+
+User10: topic1 2, topic2 6, topic3 2
+User15: topic1 3, topic2 7, topic3 1, topic4 4
+User25: topic1 4, topic2 5, topic3 11, topic4 2, topic5 3
+User50: topic1 10, topic2 3, topic3 2, topic4 15, topic5 9, topic6 11
+User70: topic1 9 , topic2 27, topic3 5, topic4 16, topic5 8, topic6 4, topic7 1
+User100: topic1 13, topic2 6, topic3 15, topic4 22, topic5 17, topic6 9, topic7 11, topic8 4, topic9 3
+User500: topic1 56, topic2 3, topic4 10, topic4 60, topic5 17, topic6 29, topic7 114, topic8 79, topic9 62, topic10 24, topic11 18, topic12 28
+
+# Users for privacy-utility trade-off graph.
+User25: topic1 4, topic2 8, topic3 2, topic4 1, topic5 10
+User25: topic1 14, topic2 1, topic3 6, topic4 4
+User25: topic1 7, topic2 4, topic3 3, topic4 6, topic5 1, topic6 4
+User25: topic1 3, topic2 2, topic3 20
+User25: topic1 14, topic2 11
+User25: topic1 1, topic2 2, topic3 3, topic4 19
